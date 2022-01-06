@@ -91,7 +91,7 @@ LifeSupport part2(const std::vector<std::string> &input) {
 
 int main() {
     std::vector<std::string> lines{};
-    lines = readFile("/home/tillb/Projects/aoc21/input/day03.input");
+    lines = readFile("/home/tillb/Projects/advent-of-code/input/day03.input");
 
     Power power{part1(lines)};
     LifeSupport lifeSupport{part2(lines)};

@@ -26,7 +26,7 @@ void updatePos(const std::string& direction, const int& count, std::array<int, 3
 }
 
 int main() {
-    std::ifstream inFile{"/home/tillb/Projects/aoc21/input/day02.input"};
+    std::ifstream inFile{"/home/tillb/Projects/advent-of-code/input/day02.input"};
 
     std::string direction{};
     int count{};

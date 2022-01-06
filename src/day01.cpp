@@ -5,7 +5,7 @@
 #include <vector>
 
 int main() {
-    std::ifstream inFile{"/home/tillb/Projects/aoc21/input/day01.input"};
+    std::ifstream inFile{"/home/tillb/Projects/advent-of-code/input/day01.input"};
 
     std::vector<int> window{};
     int current{};

@@ -107,7 +107,7 @@ bool mark(board_t &board, int value) {
 
 int main() {
     std::vector<std::string> lines{};
-    lines = readFile("/home/tillb/Projects/aoc21/input/day04.input");
+    lines = readFile("/home/tillb/Projects/advent-of-code/input/day04.input");
 
     // Randomly drawn numbers
     std::vector<int> randN{splitNumbers(lines[0], ',')};

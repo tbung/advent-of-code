@@ -76,7 +76,7 @@ std::vector<std::string> readFile(const std::string &path) {
 
 int main() {
     std::vector<std::string> lines{};
-    lines = readFile("/home/tillb/Projects/aoc21/input/day05.input");
+    lines = readFile("/home/tillb/Projects/advent-of-code/input/day05.input");
 
     std::vector<Fissure> fissures{};
     for (auto line : lines) {
